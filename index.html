@@ -19,56 +19,35 @@
     <body>
     
     
-        <div style"position:fixed; z-index:100000; top:0;">
-            <section class="navigation">
-                <div class="nav-container">
-                    <div class="brand">
-                        <a href="#!"><img src="images/logo.png" class="logoImage"/></a>
-                    </div>
-                    <nav>
-                        <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
-                        <ul class="nav-list">
-                            <li>
-                                <a href="#canvas">Home</a>
-                            </li>
-                            <li>
-                                <a href="#ABOUT">About</a>
-                            </li>
-                            <li>
-                                <a href="#EDUCATION">Educational Groups</a>
-                                <ul class="navbar-dropdown">
-                                    <li>
-                                        <a href="#!">Olympiad</a>
-                                    </li>
-                                     <li>
-                                        <a href="#!">University Entrance Exam</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#ACCELERATOR">Accelerator</a>
-                            </li>
-                            <li>
-                                <a href="#INTERNATIONAL">International</a>
-                            </li>
-                            <li>
-                                <a href="#SCIENTIFIC">Scientific</a>
-                            </li>
-                            <li>
-                                <a href="#NETWORK_BASED">Netword-Based</a>
-                            </li>
-                            <li>
-                                <a href="#CONTACT">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
+        <div style="position:fixed; z-index:100000; top:0;">
+            <nav>
+                <div class="navbar-container">
+                  <h1>MOOCS</h1>
+            
+                  <div class="menu">
+                    <a href="#" class="is-active">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Courses</a>
+                    <a href="#">Contact</a>
+                    
+                    <a href="#">Login</a>
+                  </div>
+            
+                  <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
                 </div>
-            </section>
+              </nav>
         </div>
     
-        
-        <canvas id="canvas"></canvas>
-		<div class="centered"><b>Raman Group Invites You<br> To Build Your Future</b></div>
+        <div id="parentt">
+            <div id="particle-canvas"></div>
+        </div>
+       
+        <!-- <canvas id="canvas"></canvas>
+		<div class="centered"><b>Raman Group Invites You<br> To Build Your Future</b></div> -->
 	
 		<div class="firstSectionContainer textContainer" id="ABOUT">
 			<div class="titleContainer ebtekar">About Us
@@ -76,11 +55,7 @@
 			</div>
 
 			<div class="detailContainer iranSans" style=" line-height: 1.8; padding-top: 28px;">
-				Raman Group Founded in September 21, 2018. Now, also Raman Group is working in the field of Scientific Projects
-				and Network_Based Projects to expand its activity fields.<br>
-				In the beginning the main goal was helping students who like to participate in Olympiad and reliable scientific competitions
-				(in particular the Chemistry Olympiad) but further the group began to work in the field of Iran National University Entrance Exam preparation
-				and in general, group decided to work widely in education and holding national and International self-development courses.<br>
+				A blockchain is a growing list of records, called blocks, that are securely linked together using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree, where data nodes are represented by leafs).<br>
 				
 				We can note that Raman Group opened its offices in Tehran - at Tehran University of Medical Sciences as the most reliable university in Iran - and Italy.<br>
 			</div>
@@ -88,7 +63,7 @@
 		
 		<div style="width: 100%; padding-right:20%; padding-left:20%; background:#74b4fe; padding-top:80px; padding-bottom:60px;" id="EDUCATION">
 		<div style="display:flex; justify-content:space-between;">
-  <div style"margin:100px;">
+  <div style="margin:100px;">
       <figure class='book'>        
         <!-- Front -->        
         <ul class='hardcover_front'>
