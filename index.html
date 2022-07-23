@@ -19,7 +19,7 @@
     <body>
     
     
-        <div style"position:fixed; z-index:100000; top:0;">
+        <div style="position:fixed; z-index:100000; top:0;">
             <section class="navigation">
                 <div class="nav-container">
                     <div class="brand">
@@ -66,9 +66,39 @@
             </section>
         </div>
     
+        <div id="parentt">
+            <div id="particle-canvas"></div>
+        </div>
         
-        <canvas id="canvas"></canvas>
-		<div class="centered"><b>Raman Group Invites You<br> To Build Your Future</b></div>
+        <style>
+    
+            #parentt {
+              height: 100%;
+              width: 100%;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+            }
+            
+            #particle-canvas {
+              width: 100%;
+              height: 100%;
+            }
+        </style>
+        
+        <!-- <script>
+            // particle.min.js hosted on GitHub
+            // Scroll down for initialisation code
+            
+          
+            </script> -->
+        
+        
+        
+        
+       
+        <!-- <canvas id="canvas"></canvas>
+		<div class="centered"><b>Raman Group Invites You<br> To Build Your Future</b></div> -->
 	
 		<div class="firstSectionContainer textContainer" id="ABOUT">
 			<div class="titleContainer ebtekar">About Us
@@ -88,7 +118,7 @@
 		
 		<div style="width: 100%; padding-right:20%; padding-left:20%; background:#74b4fe; padding-top:80px; padding-bottom:60px;" id="EDUCATION">
 		<div style="display:flex; justify-content:space-between;">
-  <div style"margin:100px;">
+  <div style="margin:100px;">
       <figure class='book'>        
         <!-- Front -->        
         <ul class='hardcover_front'>
